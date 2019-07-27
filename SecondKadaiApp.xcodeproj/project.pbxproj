@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		52053E5422EBE414002F4EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52053E5322EBE414002F4EBA /* AppDelegate.swift */; };
-		52053E5622EBE414002F4EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52053E5522EBE414002F4EBA /* ViewController.swift */; };
 		52053E5922EBE414002F4EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52053E5722EBE414002F4EBA /* Main.storyboard */; };
 		52053E5B22EBE415002F4EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52053E5A22EBE415002F4EBA /* Assets.xcassets */; };
 		52053E5E22EBE415002F4EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52053E5C22EBE415002F4EBA /* LaunchScreen.storyboard */; };
 		52053E6922EBE415002F4EBA /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52053E6822EBE415002F4EBA /* SecondKadaiAppTests.swift */; };
 		52053E7422EBE415002F4EBA /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52053E7322EBE415002F4EBA /* SecondKadaiAppUITests.swift */; };
+		52053E8222EBEA88002F4EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52053E8122EBEA88002F4EBA /* ViewController.swift */; };
+		52053E8422EBEAF4002F4EBA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52053E8322EBEAF4002F4EBA /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		52053E5022EBE414002F4EBA /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52053E5322EBE414002F4EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52053E5522EBE414002F4EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52053E5822EBE414002F4EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52053E5A22EBE415002F4EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52053E5D22EBE415002F4EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		52053E6F22EBE415002F4EBA /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52053E7322EBE415002F4EBA /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		52053E7522EBE415002F4EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52053E8122EBEA88002F4EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52053E8322EBEAF4002F4EBA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				52053E5322EBE414002F4EBA /* AppDelegate.swift */,
-				52053E5522EBE414002F4EBA /* ViewController.swift */,
 				52053E5722EBE414002F4EBA /* Main.storyboard */,
+				52053E8322EBEAF4002F4EBA /* ResultViewController.swift */,
+				52053E8122EBEA88002F4EBA /* ViewController.swift */,
 				52053E5A22EBE415002F4EBA /* Assets.xcassets */,
 				52053E5C22EBE415002F4EBA /* LaunchScreen.storyboard */,
 				52053E5F22EBE415002F4EBA /* Info.plist */,
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52053E5622EBE414002F4EBA /* ViewController.swift in Sources */,
+				52053E8222EBEA88002F4EBA /* ViewController.swift in Sources */,
 				52053E5422EBE414002F4EBA /* AppDelegate.swift in Sources */,
+				52053E8422EBEAF4002F4EBA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
